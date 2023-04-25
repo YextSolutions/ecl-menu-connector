@@ -35,10 +35,6 @@
       "disabled": true
     },
     {
-      "entityType": "youtube_video",
-      "disabled": false
-    },
-    {
       "entityType": "financialProfessional",
       "disabled": true
     },
@@ -62,11 +58,6 @@
     {
       "entityType": "helpArticle",
       "disabled": true
-    },
-    {
-      "entityType": "ce_eclMenuItem",
-      "defaultFieldEligibilityGroup": "ce_eclMenuItem.default",
-      "disabled": false
     },
     {
       "entityType": "product",
