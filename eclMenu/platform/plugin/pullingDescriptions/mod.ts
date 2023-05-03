@@ -1,6 +1,6 @@
 export async function fetchInformation(menuId) {
 
-    var requestUrl = "https://api.yextapis.com/v2/accounts/me/menus/" + menuId + "?v=20230324&api_key=6de480af557d3649a27b4ce187346023" // the menu endpoint. make sure to switch the API key to a variable when you publish
+    var requestUrl = "https://api.yextapis.com/v2/accounts/me/menus/" + menuId + "?v=20230324&api_key=${apiKey}" // the menu endpoint. make sure to switch the API key to a variable when you publish
 
     const response = await fetch(requestUrl).then(response => response.json()) // this is how you make an API call with a function. don't worry too much about the notation
 
