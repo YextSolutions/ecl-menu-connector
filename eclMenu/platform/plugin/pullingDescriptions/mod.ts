@@ -1,10 +1,13 @@
 export async function fetchInformation(menuId) {
 
-    var requestUrl = "https://api.yextapis.com/v2/accounts/me/menus/" + menuId + "?v=20230324&api_key=${apiKey}" // the menu endpoint. make sure to switch the API key to a variable when you publish
+    var requestUrl = "https://api.yextapis.com/v2/accounts/me/menus/" + menuId + "?v=20230324&api_key=${apiKey}" // 
 
-    const response = await fetch(requestUrl).then(response => response.json()) // this is how you make an API call with a function. don't worry too much about the notation
+    const response = await fetch(requestUrl).then(response => response.json()) // 
 
     var myOutputArray = []
+    if(typeof response.response.sections == 'undefined') {}
+
+    else {
 
     for (var x = 0; x < response.response.sections.length; x++) {
 
@@ -13,12 +16,14 @@ export async function fetchInformation(menuId) {
         var myDescriptions = []
         var myCosts = []
         var myImages = []
-
+    
+    if(typeof response.response.sections[x].items == 'undefined') {}
+    else {
         for (var y = 0; y < response.response.sections[x].items.length; y++) {
 
             myIds.push(response.response.sections[x].items[y].id)
             myNames.push(response.response.sections[x].items[y].name)
-            // myCosts.push(response.response.sections[x].items[y].cost.price)
+            //myCosts.push(response.response.sections[x].items[y].cost.price)
             //myImages.push(response.response.sections[x].items[y].photo.url)
             
             if(typeof response.response.sections[x].items[y].cost.price == 'undefined') {
@@ -47,7 +52,8 @@ export async function fetchInformation(menuId) {
         myOutputArray.push(myIds,"***",myNames,"***",myDescriptions,"***",myCosts,"***",myImages,"***")
 
     }
+   }
+  }
 
     return JSON.stringify(myOutputArray)
 }
-
