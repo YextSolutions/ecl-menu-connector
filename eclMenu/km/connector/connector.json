@@ -389,6 +389,41 @@
         },
         "valueToFind": {
           "plainText": {
+            "value": "\"\",\"",
+            "ignoreCase": false
+          }
+        },
+        "replacement": "$,"
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "Section 1 Photo",
+            "Section 2 Photo",
+            "Section 3 Photo",
+            "Section 4 Photo",
+            "Section 5 Photo",
+            "Section 6 Photo",
+            "Section 7 Photo",
+            "Section 8 Photo",
+            "Section 9 Photo",
+            "Section 10 Photo",
+            "Section 11 Photo",
+            "Section 12 Photo",
+            "Section 13 Photo",
+            "Section 14 Photo",
+            "Section 15 Photo",
+            "Section 16 Photo",
+            "Section 17 Photo",
+            "Section 18 Photo",
+            "Section 19 Photo",
+            "Section 20 Photo"
+          ]
+        },
+        "valueToFind": {
+          "plainText": {
             "value": "\"",
             "ignoreCase": false
           }
@@ -429,6 +464,41 @@
           }
         },
         "replacement": ",\"\","
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "Section 1 Photo",
+            "Section 2 Photo",
+            "Section 3 Photo",
+            "Section 4 Photo",
+            "Section 5 Photo",
+            "Section 6 Photo",
+            "Section 7 Photo",
+            "Section 8 Photo",
+            "Section 9 Photo",
+            "Section 10 Photo",
+            "Section 11 Photo",
+            "Section 12 Photo",
+            "Section 13 Photo",
+            "Section 14 Photo",
+            "Section 15 Photo",
+            "Section 16 Photo",
+            "Section 17 Photo",
+            "Section 18 Photo",
+            "Section 19 Photo",
+            "Section 20 Photo"
+          ]
+        },
+        "valueToFind": {
+          "plainText": {
+            "value": "$,",
+            "ignoreCase": false
+          }
+        },
+        "replacement": "\"\","
       }
     },
     {
@@ -731,6 +801,76 @@
           "regex": "^((?!https).)*$"
         },
         "replacement": ""
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "Section 1 Photo",
+            "Section 2 Photo",
+            "Section 3 Photo",
+            "Section 4 Photo",
+            "Section 5 Photo",
+            "Section 6 Photo",
+            "Section 7 Photo",
+            "Section 8 Photo",
+            "Section 9 Photo",
+            "Section 10 Photo",
+            "Section 11 Photo",
+            "Section 12 Photo",
+            "Section 13 Photo",
+            "Section 14 Photo",
+            "Section 15 Photo",
+            "Section 16 Photo",
+            "Section 17 Photo",
+            "Section 18 Photo",
+            "Section 19 Photo",
+            "Section 20 Photo"
+          ]
+        },
+        "valueToFind": {
+          "plainText": {
+            "value": "\"\",",
+            "ignoreCase": false
+          }
+        },
+        "replacement": "https://i.postimg.cc/5ND0rGLy/placeholder-image.jpg,"
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "Section 1 Photo",
+            "Section 2 Photo",
+            "Section 3 Photo",
+            "Section 4 Photo",
+            "Section 5 Photo",
+            "Section 6 Photo",
+            "Section 7 Photo",
+            "Section 8 Photo",
+            "Section 9 Photo",
+            "Section 10 Photo",
+            "Section 11 Photo",
+            "Section 12 Photo",
+            "Section 13 Photo",
+            "Section 14 Photo",
+            "Section 15 Photo",
+            "Section 16 Photo",
+            "Section 17 Photo",
+            "Section 18 Photo",
+            "Section 19 Photo",
+            "Section 20 Photo"
+          ]
+        },
+        "valueToFind": {
+          "plainText": {
+            "value": ",\"\",",
+            "ignoreCase": false
+          }
+        },
+        "replacement": "https://i.postimg.cc/5ND0rGLy/placeholder-image.jpg"
       }
     }
   ],
