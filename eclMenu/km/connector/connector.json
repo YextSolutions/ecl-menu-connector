@@ -959,9 +959,6 @@
           "name": "menuItem"
         },
         {
-          "index": 0
-        },
-        {
           "name": "itemPhoto"
         },
         {
@@ -1132,9 +1129,6 @@
         },
         {
           "name": "menuItem"
-        },
-        {
-          "index": 1
         },
         {
           "name": "itemPhoto"
