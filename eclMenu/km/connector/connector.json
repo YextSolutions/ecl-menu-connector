@@ -223,82 +223,167 @@
             "Section 1 Ids",
             "Section 1 Names",
             "Section 1 Price",
-            "Section 1 Photo",
             "Section 2 Ids",
             "Section 2 Names",
             "Section 2 Price",
-            "Section 2 Photo",
             "Section 3 Ids",
             "Section 3 Names",
             "Section 3 Price",
-            "Section 3 Photo",
             "Section 4 Ids",
             "Section 4 Names",
             "Section 4 Price",
-            "Section 4 Photo",
             "Section 5 Ids",
             "Section 5 Names",
             "Section 5 Price",
-            "Section 5 Photo",
             "Section 6 Ids",
             "Section 6 Names",
             "Section 6 Price",
-            "Section 6 Photo",
             "Section 7 Ids",
             "Section 7 Names",
             "Section 7 Price",
-            "Section 7 Photo",
             "Section 8 Ids",
             "Section 8 Names",
             "Section 8 Price",
-            "Section 8 Photo",
             "Section 9 Ids",
             "Section 9 Names",
             "Section 9 Price",
-            "Section 9 Photo",
             "Section 10 Ids",
             "Section 10 Names",
             "Section 10 Price",
-            "Section 10 Photo",
             "Section 11 Ids",
             "Section 11 Names",
             "Section 11 Price",
-            "Section 11 Photo",
             "Section 12 Ids",
             "Section 12 Names",
             "Section 12 Price",
-            "Section 12 Photo",
             "Section 13 Ids",
             "Section 13 Names",
             "Section 13 Price",
-            "Section 13 Photo",
             "Section 14 Ids",
             "Section 14 Names",
             "Section 14 Price",
-            "Section 14 Photo",
             "Section 15 Ids",
             "Section 15 Names",
             "Section 15 Price",
-            "Section 15 Photo",
             "Section 16 Ids",
             "Section 16 Names",
             "Section 16 Price",
-            "Section 16 Photo",
             "Section 17 Ids",
             "Section 17 Names",
             "Section 17 Price",
-            "Section 17 Photo",
             "Section 18 Ids",
             "Section 18 Names",
             "Section 18 Price",
-            "Section 18 Photo",
             "Section 19 Ids",
             "Section 19 Names",
             "Section 19 Price",
-            "Section 19 Photo",
             "Section 20 Ids",
             "Section 20 Names",
-            "Section 20 Price",
+            "Section 20 Price"
+          ]
+        },
+        "valueToFind": {
+          "plainText": {
+            "value": "\"",
+            "ignoreCase": false
+          }
+        },
+        "replacement": ""
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "Section 1 Photo",
+            "Section 2 Photo",
+            "Section 3 Photo",
+            "Section 4 Photo",
+            "Section 5 Photo",
+            "Section 6 Photo",
+            "Section 7 Photo",
+            "Section 8 Photo",
+            "Section 9 Photo",
+            "Section 10 Photo",
+            "Section 11 Photo",
+            "Section 12 Photo",
+            "Section 13 Photo",
+            "Section 14 Photo",
+            "Section 15 Photo",
+            "Section 16 Photo",
+            "Section 17 Photo",
+            "Section 18 Photo",
+            "Section 19 Photo",
+            "Section 20 Photo"
+          ]
+        },
+        "valueToFind": {
+          "plainText": {
+            "value": "\",\"\",\"",
+            "ignoreCase": false
+          }
+        },
+        "replacement": ",\"\","
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "Section 1 Photo",
+            "Section 2 Photo",
+            "Section 3 Photo",
+            "Section 4 Photo",
+            "Section 5 Photo",
+            "Section 6 Photo",
+            "Section 7 Photo",
+            "Section 8 Photo",
+            "Section 9 Photo",
+            "Section 10 Photo",
+            "Section 11 Photo",
+            "Section 12 Photo",
+            "Section 13 Photo",
+            "Section 14 Photo",
+            "Section 15 Photo",
+            "Section 16 Photo",
+            "Section 17 Photo",
+            "Section 18 Photo",
+            "Section 19 Photo",
+            "Section 20 Photo"
+          ]
+        },
+        "valueToFind": {
+          "plainText": {
+            "value": ",\"\",",
+            "ignoreCase": false
+          }
+        },
+        "replacement": ",$,"
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "Section 1 Photo",
+            "Section 2 Photo",
+            "Section 3 Photo",
+            "Section 4 Photo",
+            "Section 5 Photo",
+            "Section 6 Photo",
+            "Section 7 Photo",
+            "Section 8 Photo",
+            "Section 9 Photo",
+            "Section 10 Photo",
+            "Section 11 Photo",
+            "Section 12 Photo",
+            "Section 13 Photo",
+            "Section 14 Photo",
+            "Section 15 Photo",
+            "Section 16 Photo",
+            "Section 17 Photo",
+            "Section 18 Photo",
+            "Section 19 Photo",
             "Section 20 Photo"
           ]
         },
@@ -309,6 +394,41 @@
           }
         },
         "replacement": ""
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "Section 1 Photo",
+            "Section 2 Photo",
+            "Section 3 Photo",
+            "Section 4 Photo",
+            "Section 5 Photo",
+            "Section 6 Photo",
+            "Section 7 Photo",
+            "Section 8 Photo",
+            "Section 9 Photo",
+            "Section 10 Photo",
+            "Section 11 Photo",
+            "Section 12 Photo",
+            "Section 13 Photo",
+            "Section 14 Photo",
+            "Section 15 Photo",
+            "Section 16 Photo",
+            "Section 17 Photo",
+            "Section 18 Photo",
+            "Section 19 Photo",
+            "Section 20 Photo"
+          ]
+        },
+        "valueToFind": {
+          "plainText": {
+            "value": ",$,",
+            "ignoreCase": false
+          }
+        },
+        "replacement": ",\"\","
       }
     },
     {
@@ -472,6 +592,143 @@
             "value": ",***",
             "ignoreCase": false
           }
+        },
+        "replacement": ""
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "Section 1 Photo",
+            "Section 2 Photo",
+            "Section 3 Photo",
+            "Section 4 Photo",
+            "Section 5 Photo",
+            "Section 6 Photo",
+            "Section 7 Photo",
+            "Section 8 Photo",
+            "Section 9 Photo",
+            "Section 10 Photo",
+            "Section 11 Photo",
+            "Section 12 Photo",
+            "Section 13 Photo",
+            "Section 14 Photo",
+            "Section 15 Photo",
+            "Section 16 Photo",
+            "Section 17 Photo",
+            "Section 18 Photo",
+            "Section 19 Photo",
+            "Section 20 Photo"
+          ]
+        },
+        "valueToFind": {
+          "plainText": {
+            "value": ".jpg,h",
+            "ignoreCase": false
+          }
+        },
+        "replacement": ".jpgh"
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "Section 1 Photo",
+            "Section 2 Photo",
+            "Section 3 Photo",
+            "Section 4 Photo",
+            "Section 5 Photo",
+            "Section 6 Photo",
+            "Section 7 Photo",
+            "Section 8 Photo",
+            "Section 9 Photo",
+            "Section 10 Photo",
+            "Section 11 Photo",
+            "Section 12 Photo",
+            "Section 13 Photo",
+            "Section 14 Photo",
+            "Section 15 Photo",
+            "Section 16 Photo",
+            "Section 17 Photo",
+            "Section 18 Photo",
+            "Section 19 Photo",
+            "Section 20 Photo"
+          ]
+        },
+        "valueToFind": {
+          "plainText": {
+            "value": ".jpgh",
+            "ignoreCase": false
+          }
+        },
+        "replacement": ".jpg,h"
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "Section 1 Photo",
+            "Section 2 Photo",
+            "Section 3 Photo",
+            "Section 4 Photo",
+            "Section 5 Photo",
+            "Section 6 Photo",
+            "Section 7 Photo",
+            "Section 8 Photo",
+            "Section 9 Photo",
+            "Section 10 Photo",
+            "Section 11 Photo",
+            "Section 12 Photo",
+            "Section 13 Photo",
+            "Section 14 Photo",
+            "Section 15 Photo",
+            "Section 16 Photo",
+            "Section 17 Photo",
+            "Section 18 Photo",
+            "Section 19 Photo",
+            "Section 20 Photo"
+          ]
+        },
+        "valueToFind": {
+          "plainText": {
+            "value": "***",
+            "ignoreCase": false
+          }
+        },
+        "replacement": ""
+      }
+    },
+    {
+      "findAndReplace": {
+        "inputHeaders": {
+          "headers": [
+            "Section 1 Photo",
+            "Section 2 Photo",
+            "Section 3 Photo",
+            "Section 4 Photo",
+            "Section 5 Photo",
+            "Section 6 Photo",
+            "Section 7 Photo",
+            "Section 8 Photo",
+            "Section 9 Photo",
+            "Section 10 Photo",
+            "Section 11 Photo",
+            "Section 12 Photo",
+            "Section 13 Photo",
+            "Section 14 Photo",
+            "Section 15 Photo",
+            "Section 16 Photo",
+            "Section 17 Photo",
+            "Section 18 Photo",
+            "Section 19 Photo",
+            "Section 20 Photo"
+          ]
+        },
+        "valueToFind": {
+          "regex": "^((?!https).)*$"
         },
         "replacement": ""
       }
