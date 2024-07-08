@@ -1441,7 +1441,7 @@
                 },
                 {
                     "name": "markdown"
-                },
+                }
             ],
             "clearValueIfBlank": false
         },
